@@ -2,17 +2,17 @@
 
 После того, как построите верстку свайпера, нужно добавить блок таймера и настроить его скрипт:
 
-<div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">1</div>
-        <div class="swiper-slide">2</div>
-        <div class="swiper-slide">3</div>
-        <div class="swiper-slide">4</div>
-        <div class="swiper-slide">5</div>
-    </div>
-    <div class="swiper-pagination"></div>
-    <div class="timer-swiper"><div class="timer-swiperAfter"></div></div>//Необходимый блок свайпера
-</div>
+    '<div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">1</div>
+            <div class="swiper-slide">2</div>
+            <div class="swiper-slide">3</div>
+            <div class="swiper-slide">4</div>
+            <div class="swiper-slide">5</div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="timer-swiper"><div class="timer-swiperAfter"></div></div>//Необходимый блок свайпера
+    </div>'
 
 var swiper = new Swiper(".mySwiper", {
     direction: "horizontal",
